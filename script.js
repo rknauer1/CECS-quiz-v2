@@ -527,7 +527,7 @@ const questions = [
     },
     {
         "question": "In the context of NFPA 96, what does the word 'should' signify?",
-        "options": ["A. A recommendation that is advised but not required.", "B. A requirement that can be ignored.", "C. A strict prohibition."],
+        "options": ["A. A mandatory and absolute requirement.", "B. A recommendation that is advised but not required.", "C. A requirement that can be ignored.", "D. A strict prohibition."],
         "correctAnswer": "B. A recommendation that is advised but not required.",
         "explanation": "The word 'should' indicates a recommendation or best practice, but it is not mandatory.",
         "reference": "CECS Study Guide, Page 22, Definition 27"
@@ -884,7 +884,15 @@ const questions = [
     },
     {
         "question": "How should solid grease that has been scraped from an exhaust system be disposed of?",
-        "options": ["A. Placed in a bucket and poured down a sanitary sewer drain.", "B. Combined with solid waste and disposed of in a trash receptacle.", "C. Melted down and collected by a rendering company.", "D. Placed in the grease trap.", "correctAnswer": "B. Combined with solid waste and disposed of in a trash receptacle.", "explanation": "Scraped, solid grease should be treated as solid waste and disposed of in the regular trash, not put into the plumbing system.", "reference": "CECS Study Guide, Page 12, 2.3.2"
+        "options": [
+            "A. Placed in a bucket and poured down a sanitary sewer drain.",
+            "B. Combined with solid waste and disposed of in a trash receptacle.",
+            "C. Melted down and collected by a rendering company.",
+            "D. Placed in the grease trap."
+        ],
+        "correctAnswer": "B. Combined with solid waste and disposed of in a trash receptacle.",
+        "explanation": "Scraped, solid grease should be treated as solid waste and disposed of in the regular trash, not put into the plumbing system.",
+        "reference": "CECS Study Guide, Page 12, 2.3.2"
     },
     {
         "question": "What is the environmental impact of disposing of kitchen exhaust cleaning wastewater into a storm drain?",
