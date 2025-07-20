@@ -892,8 +892,8 @@ const questions = [
         "correctAnswer": "B. It is illegal as storm drains flow directly to fresh bodies of water without treatment.",
         "explanation": "Storm drains are for rainwater runoff only and flow directly into rivers, lakes, and streams. Dumping contaminated water into them is illegal and harmful.",
         "reference": "CECS Study Guide, Page 11, 2.2.1"
-    }
-    //patch
+    },
+    //PATCH
     {
         "question": "In non-listed assemblies, at what minimum angle from the horizontal must filters be installed?",
         "options": ["A. 30 degrees", "B. 45 degrees", "C. 60 degrees", "D. 90 degrees"],
