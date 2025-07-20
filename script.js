@@ -893,6 +893,357 @@ const questions = [
         "explanation": "Storm drains are for rainwater runoff only and flow directly into rivers, lakes, and streams. Dumping contaminated water into them is illegal and harmful.",
         "reference": "CECS Study Guide, Page 11, 2.2.1"
     }
+    //patch
+    {
+        "question": "In non-listed assemblies, at what minimum angle from the horizontal must filters be installed?",
+        "options": ["A. 30 degrees", "B. 45 degrees", "C. 60 degrees", "D. 90 degrees"],
+        "correctAnswer": "B. 45 degrees",
+        "explanation": "Filters in non-listed assemblies must be installed at an angle of not less than 45 degrees from the horizontal to ensure proper grease drainage.",
+        "reference": "CECS Study Guide, Page 1, 1.1"
+    },
+    {
+        "question": "Which of the following are required at low points in horizontal ducts to allow for the removal of grease and cleaning solutions?",
+        "options": ["A. Drip Pans", "B. Drains", "C. Access Panels", "D. Dampers"],
+        "correctAnswer": "B. Drains",
+        "explanation": "Drains shall be provided at the low points in horizontal ductwork to facilitate the removal of trapped grease and liquids.",
+        "reference": "NFPA 96, 7.1.5.3"
+    },
+    {
+        "question": "Fasteners used to secure access panels, such as bolts or wing nuts, must be made of carbon steel or stainless steel, and their installation must not do what?",
+        "options": ["A. Require special tools", "B. Be completed by one person", "C. Penetrate duct walls", "D. Use locking washers"],
+        "correctAnswer": "C. Penetrate duct walls",
+        "explanation": "To maintain the liquid-tight integrity of the duct, fasteners for access panels shall not penetrate the duct walls.",
+        "reference": "CECS Study Guide, Page 4, 5.4"
+    },
+    {
+        "question": "Recirculating systems are only permitted to be used with which type of cooking appliances?",
+        "options": ["A. Solid fuel or electric", "B. Electric or gas-fueled", "C. Gas-fueled or solid fuel", "D. Any appliance with an interlock"],
+        "correctAnswer": "B. Electric or gas-fueled",
+        "explanation": "Solid fuel cooking appliances are not permitted for use with recirculating systems due to the nature of their effluent.",
+        "reference": "CECS Study Guide, Page 1, 1.3.2"
+    },
+    {
+        "question": "What is the first step to take when cleaning or inspecting a multiple-pass disposable filter pollution control unit?",
+        "options": ["A. Disconnect the power source", "B. Remove the filters", "C. Inspect the operation controls", "D. Check for grease accumulation"],
+        "correctAnswer": "C. Inspect the operation controls",
+        "explanation": "Before servicing a pollution control unit, the technician should first inspect its operational controls to ensure it is functioning correctly before shutdown.",
+        "reference": "CECS Study Guide, Page 5, 1.5"
+    },
+    {
+        "question": "After cleaning is complete, the service provider must give the owner a written report that specifies the work performed as well as what other critical information?",
+        "options": ["A. The brand of chemicals used", "B. The time the service was completed", "C. Any areas that were inaccessible or not cleaned", "D. A recommendation for the next service date"],
+        "correctAnswer": "C. Any areas that were inaccessible or not cleaned",
+        "explanation": "The written report must be transparent and clearly identify any parts of the system that could not be serviced, either due to inaccessibility or other reasons.",
+        "reference": "CECS Study Guide, Page 8, 3.1"
+    },
+    {
+        "question": "What information must be displayed on a service company label affixed near an access panel that has been opened?",
+        "options": ["A. Technician's name and certification number", "B. The service company's name and the date of service", "C. The time of day the service was performed", "D. The type of cleaning chemicals used"],
+        "correctAnswer": "B. The service company's name and the date of service",
+        "explanation": "A label must be placed near any opened access panel showing the name of the service company and the date the work was performed.",
+        "reference": "NFPA 96, 12.6.10"
+    },
+    {
+        "question": "Before a technician performs maintenance that requires entry into ductwork, what is the most critical initial safety procedure?",
+        "options": ["A. Ensuring the technician has a radio", "B. Setting up proper fall protection", "C. Verifying the fire suppression system is charged", "D. Implementing lock-out/tag-out on the exhaust fan"],
+        "correctAnswer": "D. Implementing lock-out/tag-out on the exhaust fan",
+        "explanation": "De-energizing and locking out the fan is the most critical step to prevent accidental startup while a technician is inside the system.",
+        "reference": "CECS Study Guide, Page 16, 2.1"
+    },
+    {
+        "question": "Which of the following is the best definition of solid cooking fuel as defined by NFPA 96?",
+        "options": ["A. Any fuel that is not a liquid or a gas", "B. Processed wood pellets and charcoal briquettes", "C. Consumable, organic material such as hardwood or mesquite", "D. Any combustible material used for flavoring"],
+        "correctAnswer": "C. Consumable, organic material such as hardwood or mesquite",
+        "explanation": "NFPA 96 defines solid fuel as organic, consumable materials like hardwood or charcoal, distinguishing it from mineral-based fuels.",
+        "reference": "CECS Study Guide, Page 21, Definition 28"
+    },
+    {
+        "question": "Under what specific condition may solid fuel cooking equipment share a common hood and duct system with other cooking equipment?",
+        "options": ["A. When an extra fire suppression nozzle is added", "B. When the fan is upgraded for higher airflow", "C. When the solid fuel unit is gas-operated and uses the solid fuel only for flavoring, and other conditions are met", "D. When the ductwork is inspected weekly instead of monthly"],
+        "correctAnswer": "C. When the solid fuel unit is gas-operated and uses the solid fuel only for flavoring, and other conditions are met",
+        "explanation": "This is a specific exception allowing combined systems if the solid fuel is only for flavoring in a gas appliance, and 12 other conditions are met.",
+        "reference": "CECS Study Guide, Page 12, 1.2"
+    },
+    {
+        "question": "Unless a reduction system is used, what is the minimum clearance required between an unenclosed exhaust duct and combustible material?",
+        "options": ["A. 0 in (0 mm)", "B. 3 in (76 mm)", "C. 9 in (229 mm)", "D. 18 in (457 mm)"],
+        "correctAnswer": "D. 18 in (457 mm)",
+        "explanation": "NFPA 96 mandates a standard clearance of 18 inches between a grease duct and any combustible materials to prevent fire spread.",
+        "reference": "NFPA 96, 4.2.1"
+    },
+    {
+        "question": "A hinged upblast fan on a rooftop must be installed so that its point of attachment to the ductwork is at least how far away from the roof surface?",
+        "options": ["A. 10 in (254 mm)", "B. 18 in (457 mm)", "C. 36 in (914 mm)", "D. 40 in (1.02 m)"],
+        "correctAnswer": "B. 18 in (457 mm)",
+        "explanation": "To prevent heat transfer and provide adequate space for service, the fan's connection to the duct must be at least 18 inches above the roof surface.",
+        "reference": "NFPA 96, 7.8.2.1(8)(a)"
+    },
+    {
+        "question": "When a clearance reduction system using 28-gauge sheet metal on noncombustible spacers is installed, what is the new minimum clearance to combustible material?",
+        "options": ["A. 3 in (76 mm)", "B. 9 in (229 mm)", "C. 12 in (305 mm)", "D. 18 in (457 mm)"],
+        "correctAnswer": "B. 9 in (229 mm)",
+        "explanation": "This specific, single-layer sheet metal system allows the standard 18-inch clearance to be safely reduced to 9 inches.",
+        "reference": "NFPA 96, 4.2.3.1"
+    },
+    {
+        "question": "A hinged upblast fan on a rooftop must discharge a minimum of how far away from the roof surface?",
+        "options": ["A. 18 in (457 mm)", "B. 24 in (610 mm)", "C. 36 in (914 mm)", "D. 40 in (1.02 m)"],
+        "correctAnswer": "D. 40 in (1.02 m)",
+        "explanation": "The fan's discharge point must be at least 40 inches from the roof surface to ensure proper dispersal of exhaust and prevent grease from accumulating on the roof.",
+        "reference": "NFPA 96, 7.8.2.1(8)(b)"
+    },
+    {
+        "question": "For cooking equipment without an exposed flame where flue gases bypass the filter, the minimum vertical distance between the filter and the cooking surface can be reduced to what measurement?",
+        "options": ["A. 6 in (152 mm)", "B. 9 in (229 mm)", "C. 12 in (305 mm)", "D. 18 in (457 mm)"],
+        "correctAnswer": "A. 6 in (152 mm)",
+        "explanation": "In this specific scenario with lower fire risk (no direct flame, bypassed flue gas), the filter clearance can be reduced to a minimum of 6 inches.",
+        "reference": "NFPA 96, 6.2.1.3"
+    },
+    {
+        "question": "What is the minimum required clearance between an unenclosed exhaust duct and limited-combustible material?",
+        "options": ["A. 0 in (0 mm)", "B. 3 in (76 mm)", "C. 6 in (152 mm)", "D. 9 in (229 mm)"],
+        "correctAnswer": "B. 3 in (76 mm)",
+        "explanation": "While less than the clearance for combustibles, a 3-inch clearance is still required for limited-combustible materials.",
+        "reference": "NFPA 96, 4.2.1"
+    },
+    {
+        "question": "A steel baffle plate used to protect a grease removal device must be located at least how far from the device itself?",
+        "options": ["A. 3 in (76 mm)", "B. 6 in (152 mm)", "C. 12 in (305 mm)", "D. 18 in (457 mm)"],
+        "correctAnswer": "B. 6 in (152 mm)",
+        "explanation": "The baffle plate must be positioned no less than 6 inches away from the grease filter to ensure it doesn't interfere with the filter's function or airflow.",
+        "reference": "NFPA 96, 6.2.2.4"
+    },
+    {
+        "question": "What is the minimum distance between a grease removal device and a cooking surface, unless special conditions apply?",
+        "options": ["A. 12 in (305 mm)", "B. 16 in (406 mm)", "C. 18 in (457 mm)", "D. 24 in (610 mm)"],
+        "correctAnswer": "C. 18 in (457 mm)",
+        "explanation": "The standard minimum vertical distance between the bottom of the filter and the cooking surface is 18 inches to prevent filter fires.",
+        "reference": "NFPA 96, 6.2.1.1"
+    },
+    {
+        "question": "The requirement for a 16-inch space between a fryer and surface flames can be waived if a steel or tempered glass baffle plate of what minimum height is installed?",
+        "options": ["A. 6 in (152 mm)", "B. 8 in (203 mm)", "C. 12 in (305 mm)", "D. 16 in (406 mm)"],
+        "correctAnswer": "B. 8 in (203 mm)",
+        "explanation": "An 8-inch high baffle plate can be used as an alternative to the 16-inch physical separation between a fryer and an open flame.",
+        "reference": "NFPA 96, 13.1.2.5"
+    },
+    {
+        "question": "A rooftop termination fan housing must have a minimum horizontal clearance of what distance from any combustible structure?",
+        "options": ["A. 3 ft (0.92 m)", "B. 5 ft (1.5 m)", "C. 10 ft (3 m)", "D. 18 ft (5.5 m)"],
+        "correctAnswer": "B. 5 ft (1.5 m)",
+        "explanation": "To prevent ignition of combustible roof structures, the fan housing itself must be at least 5 feet away.",
+        "reference": "NFPA 96, 7.8.2.1(2)"
+    },
+    {
+        "question": "When a baffle plate is used to protect a grease removal device, it must be sized so that flames travel a distance of at least how far from the heat source to the device?",
+        "options": ["A. 6 in (152 mm)", "B. 12 in (305 mm)", "C. 18 in (457 mm)", "D. 24 in (610 mm)"],
+        "correctAnswer": "C. 18 in (457 mm)",
+        "explanation": "The baffle must create a path that forces flames or hot gases to travel at least 18 inches before they can reach the grease filter.",
+        "reference": "NFPA 96, 6.2.2.3"
+    },
+    {
+        "question": "What is the minimum clearance between an unenclosed exhaust duct and noncombustible material?",
+        "options": ["A. 0 in (0 mm)", "B. 1 in (25 mm)", "C. 3 in (76 mm)", "D. 6 in (152 mm)"],
+        "correctAnswer": "A. 0 in (0 mm)",
+        "explanation": "No clearance is required between a grease duct and materials that are noncombustible, such as concrete or steel.",
+        "reference": "NFPA 96, 4.2.1"
+    },
+    {
+        "question": "A rooftop exhaust outlet must have a vertical separation of what distance above any air intakes that are located within 10 feet horizontally?",
+        "options": ["A. 18 in (457 mm)", "B. 2 ft (0.61 m)", "C. 3 ft (0.92 m)", "D. 5 ft (1.5 m)"],
+        "correctAnswer": "C. 3 ft (0.92 m)",
+        "explanation": "To prevent exhaust fumes from being drawn back into the building, the exhaust outlet must be at least 3 feet above any nearby air intakes.",
+        "reference": "NFPA 96, 7.8.2.1(3)"
+    },
+    {
+        "question": "At what measured depth of grease accumulation must a fan housing be cleaned?",
+        "options": ["A. 1000 µm (0.039 in)", "B. 2000 µm (0.078 in)", "C. 2500 µm (0.098 in)", "D. 3175 µm (0.125 in)"],
+        "correctAnswer": "D. 3175 µm (0.125 in)",
+        "explanation": "The cleaning trigger for a fan housing is specifically set at 3175 µm (0.125 in) due to the rotational forces and fire risk.",
+        "reference": "NFPA 96, 12.6.1.1.4"
+    },
+    {
+        "question": "When a clearance reduction system using 22-gauge sheet metal on 1-inch mineral wool batts is installed, what is the new minimum clearance to combustible material?",
+        "options": ["A. 3 in (76 mm)", "B. 6 in (152 mm)", "C. 9 in (229 mm)", "D. 12 in (305 mm)"],
+        "correctAnswer": "A. 3 in (76 mm)",
+        "explanation": "This more robust, insulated clearance reduction system allows the standard 18-inch clearance to be safely reduced to just 3 inches.",
+        "reference": "NFPA 96, 4.2.3.2"
+    },
+    {
+        "question": "Which of the following is explicitly forbidden for use as a cleaning aid in a kitchen exhaust system?",
+        "options": ["A. Abrasive powders", "B. Flammable solvents", "C. High-pressure steam", "D. Caustic chemicals"],
+        "correctAnswer": "B. Flammable solvents",
+        "explanation": "Using flammable solvents like gasoline or mineral spirits is strictly prohibited due to the extreme risk of fire or explosion.",
+        "reference": "NFPA 96, 12.6.6"
+    },
+    {
+        "question": "Which of the following components must not have cleaning chemicals applied to them?",
+        "options": ["A. Fan blades", "B. Duct access panels", "C. Fusible links", "D. Grease collection cups"],
+        "correctAnswer": "C. Fusible links",
+        "explanation": "Chemicals can damage or alter the triggering temperature of fusible links, compromising the fire suppression system's effectiveness.",
+        "reference": "NFPA 96, 12.6.7"
+    },
+    {
+        "question": "What is the first step that must be taken at the start of the cleaning process to ensure safety?",
+        "options": ["A. Cover all cooking appliances.", "B. Notify the local fire department.", "C. Lock out electrical switches that could be accidentally activated.", "D. Test the fire suppression system."],
+        "correctAnswer": "C. Lock out electrical switches that could be accidentally activated.",
+        "explanation": "Before any work begins, all relevant electrical equipment, primarily the exhaust fan, must be de-energized and locked out.",
+        "reference": "NFPA 96, 12.6.3"
+    },
+    {
+        "question": "After cleaning is completed, what must be done with access panels and cover plates?",
+        "options": ["A. Tagged with the date of the next required cleaning.", "B. Restored to their normal operational condition.", "C. Sealed with a temporary, non-grease-tight sealant.", "D. Left open for 24 hours to allow for ventilation."],
+        "correctAnswer": "B. Restored to their normal operational condition.",
+        "explanation": "All access panels must be properly re-secured to ensure the duct system is returned to its original, grease-tight, and fire-safe condition.",
+        "reference": "NFPA 96, 12.6.9"
+    },
+    {
+        "question": "Who is permitted to render a fire-extinguishing system inoperable during the cleaning process?",
+        "options": ["A. Any certified cleaning technician", "B. The building owner or agent", "C. Properly trained and qualified persons servicing the system", "D. The local authority having jurisdiction"],
+        "correctAnswer": "C. Properly trained and qualified persons servicing the system",
+        "explanation": "Only a qualified fire suppression technician is permitted to take a system offline for service, even during cleaning.",
+        "reference": "NFPA 96, 12.6.5"
+    },
+    {
+        "question": "When working on a sloped roof, at what height must fall protection systems be utilized?",
+        "options": ["A. Any height above 4 feet.", "B. Any height above 6 feet.", "C. Any height where there is a risk of a fall to a lower level.", "D. Only when the slope exceeds 4:12 pitch."],
+        "correctAnswer": "B. Any height above 6 feet.",
+        "explanation": "OSHA requires fall protection for any potential fall of 6 feet or more to a lower level, which is a common scenario on commercial rooftops.",
+        "reference": "OSHA 1926.501(b)(1)"
+    },
+    {
+        "question": "Before entering a duct system for cleaning, what must be done if the duct has multiple entry points?",
+        "options": ["A. Only the nearest entry point needs to be secured.", "B. All entry points must be marked with a 'Caution' sign.", "C. All potential entry points must be secured and monitored.", "D. Only entry points visible from the work area need attention."],
+        "correctAnswer": "C. All potential entry points must be secured and monitored.",
+        "explanation": "To ensure the safety of a technician inside a duct, all possible entry points must be secured to prevent another person from entering or introducing a hazard.",
+        "reference": "OSHA Confined Space Entry Procedures"
+    },
+    {
+        "question": "What is the primary risk associated with working in an unventilated area filled with cleaning fumes?",
+        "options": ["A. Increased cleaning solution evaporation.", "B. Asphyxiation or chemical poisoning.", "C. Damage to the cleaning equipment.", "D. Discoloration of the ductwork."],
+        "correctAnswer": "B. Asphyxiation or chemical poisoning.",
+        "explanation": "Inhaling concentrated chemical fumes in an enclosed space can quickly lead to respiratory failure, poisoning, or oxygen displacement.",
+        "reference": "OSHA Hazard Communication Standard"
+    },
+    {
+        "question": "What is a common cause of slips, trips, and falls during kitchen exhaust cleaning operations?",
+        "options": ["A. Using too much water for cleaning.", "B. Grease and cleaning solution residue on floors and work surfaces.", "C. Insufficient lighting in the kitchen area.", "D. Lack of communication among team members."],
+        "correctAnswer": "B. Grease and cleaning solution residue on floors and work surfaces.",
+        "explanation": "The combination of water, degreaser, and grease creates an extremely slippery environment, which is a leading cause of injuries.",
+        "reference": "OSHA General Safety and Health Provisions"
+    },
+    {
+        "question": "What is the primary function of a baffle filter in a commercial kitchen exhaust system?",
+        "options": ["A. To remove odors from the exhaust air.", "B. To create tortuous pathways to separate grease particles from the air.", "C. To chemically neutralize grease vapors.", "D. To provide structural support for the hood."],
+        "correctAnswer": "B. To create tortuous pathways to separate grease particles from the air.",
+        "explanation": "Baffle filters force the air to make sharp turns, causing heavier grease particles to impact the baffles and drain away.",
+        "reference": "General Industry Knowledge"
+    },
+    {
+        "question": "Which type of hood is designed to directly capture effluent from a cooking appliance without requiring a full canopy?",
+        "options": ["A. Island canopy hood.", "B. Compensating hood.", "C. Eyebrow hood.", "D. Pass-over hood."],
+        "correctAnswer": "C. Eyebrow hood.",
+        "explanation": "Eyebrow hoods are small, shelf-like hoods mounted directly over appliances like convection ovens to capture their vented exhaust.",
+        "reference": "CECS Study Guide, Page 2, 3.6"
+    },
+    {
+        "question": "In a commercial kitchen, what is the general purpose of a make-up air unit?",
+        "options": ["A. To filter the exhaust air before discharge.", "B. To replenish air exhausted by the hood, preventing negative pressure.", "C. To cool the cooking line.", "D. To provide backup ventilation during fan failure."],
+        "correctAnswer": "B. To replenish air exhausted by the hood, preventing negative pressure.",
+        "explanation": "A make-up air unit replaces the air removed by the exhaust fan, ensuring proper fan performance and preventing drafts or back-drafting of combustion appliances.",
+        "reference": "General HVAC/NFPA 96 Principles"
+    },
+    {
+        "question": "How often must filters be removed and cleaned or replaced to prevent excessive grease accumulation?",
+        "options": ["A. Annually.", "B. Monthly.", "C. Weekly.", "D. As often as necessary to maintain acceptable grease levels."],
+        "correctAnswer": "D. As often as necessary to maintain acceptable grease levels.",
+        "explanation": "There is no single prescribed frequency; filters must be maintained often enough to prevent them from becoming heavily loaded with grease.",
+        "reference": "NFPA 96, 6.1.3"
+    },
+    {
+        "question": "What is the primary function of an access panel in a kitchen exhaust duct system?",
+        "options": ["A. To allow for airflow measurement.", "B. To permit inspection and cleaning of the duct interior.", "C. To provide a point for chemical injection.", "D. To mount auxiliary equipment."],
+        "correctAnswer": "B. To permit inspection and cleaning of the duct interior.",
+        "explanation": "Access panels are the primary means by which technicians can physically reach the interior surfaces of the ductwork for cleaning and inspection.",
+        "reference": "CECS Study Guide, Page 4, 5.1"
+    },
+    {
+        "question": "Which component of a Pollution Control Unit (PCU) is specifically designed to remove very fine grease particles using an electrical charge?",
+        "options": ["A. UV-C lamp.", "B. Carbon filter.", "C. Electrostatic Precipitator (ESP).", "D. Catalytic converter."],
+        "correctAnswer": "C. Electrostatic Precipitator (ESP).",
+        "explanation": "An ESP works by charging grease particles with an ionizer and then collecting them on oppositely charged plates.",
+        "reference": "CECS Study Guide, Page 5, 1.4.1"
+    },
+    {
+        "question": "What is the primary method by which UV-C light systems reduce grease buildup in exhaust ducts?",
+        "options": ["A. By physically scrubbing the duct surfaces.", "B. By creating a chemical reaction that oxidizes grease vapors into smaller, less adhesive particles.", "C. By heating the grease until it evaporates.", "D. By repelling grease particles with an electric field."],
+        "correctAnswer": "B. By creating a chemical reaction that oxidizes grease vapors into smaller, less adhesive particles.",
+        "explanation": "UV-C light, often in conjunction with ozone, breaks down grease molecules (photolysis and ozonolysis), making them less likely to stick to duct surfaces.",
+        "reference": "CECS Study Guide, Page 5, 3.4"
+    },
+    {
+        "question": "In a recirculating system, where must a listed fire damper be installed?",
+        "options": ["A. At the entrance to the hood.", "B. On the discharge side of the recirculating system.", "C. Within the ductwork leading to the fan.", "D. Inside the air intake plenum."],
+        "correctAnswer": "B. On the discharge side of the recirculating system.",
+        "explanation": "A fire damper is required at the discharge point to prevent fire from spreading from the unit into the surrounding space.",
+        "reference": "NFPA 96, 14.6.4"
+    },
+    {
+        "question": "How does a catalytic converter typically function within a PCU to reduce emissions?",
+        "options": ["A. By electrically charging particles.", "B. By oxidizing grease into dust using UV light.", "C. By converting pollutants into less harmful substances through chemical reactions.", "D. By filtering particles physically."],
+        "correctAnswer": "C. By converting pollutants into less harmful substances through chemical reactions.",
+        "explanation": "A catalyst facilitates a chemical reaction at a lower temperature, converting harmful pollutants like carbon monoxide and unburned hydrocarbons into carbon dioxide and water.",
+        "reference": "General PCU Knowledge"
+    },
+    {
+        "question": "What safety feature is critical for UV-C lamps in exhaust systems to prevent exposure to personnel?",
+        "options": ["A. A clear glass housing.", "B. An interlock that deactivates the lamp when access panels are opened.", "C. A manual shut-off switch located outside the kitchen.", "D. A warning light that illuminates during operation."],
+        "correctAnswer": "B. An interlock that deactivates the lamp when access panels are opened.",
+        "explanation": "UV-C light is harmful to eyes and skin. An interlock that automatically shuts off the lamp when the system is accessed is a mandatory safety feature.",
+        "reference": "General PCU/UV System Safety"
+    },
+    {
+        "question": "What is the typical flow direction of air through an electrostatic precipitator unit?",
+        "options": ["A. Fan, collecting cell, ionizer.", "B. Collecting cell, ionizer, fan.", "C. Ionizer, collecting cell, fan.", "D. Fan, ionizer, collecting cell."],
+        "correctAnswer": "C. Ionizer, collecting cell, fan.",
+        "explanation": "Air must first pass through the ionizer to charge the grease particles, then through the collecting cell to capture them, before finally being pulled through by the fan.",
+        "reference": "General PCU Knowledge"
+    },
+    {
+        "question": "If, upon inspection, an exhaust system is found to be contaminated with deposits, who is primarily responsible for ensuring it is cleaned?",
+        "options": ["A. The local Authority Having Jurisdiction (AHJ).", "B. The certified cleaning technician.", "C. The system owner.", "D. The fire department."],
+        "correctAnswer": "C. The system owner.",
+        "explanation": "While the cleaning company performs the work and the AHJ enforces the code, the ultimate responsibility for maintaining the system and ensuring it is cleaned rests with the owner of the establishment.",
+        "reference": "NFPA 96, 4.1.5"
+    },
+    {
+        "question": "A commercial kitchen is equipped with a Pollution Control Unit (PCU) utilizing an Electrostatic Precipitator (ESP). During routine maintenance, a technician notes a significant drop in collection efficiency despite proper cleaning of the collecting plates. What is the most likely underlying issue?",
+        "options": ["A. The UV-C lamps are at the end of their service life.", "B. The activated carbon filters are saturated.", "C. The ionizing section's electrodes are misaligned or damaged.", "D. The exhaust fan is operating at an insufficient speed."],
+        "correctAnswer": "C. The ionizing section's electrodes are misaligned or damaged.",
+        "explanation": "If the ionizing wires are broken or misaligned, they cannot properly charge the incoming grease particles, rendering the collecting plates ineffective regardless of how clean they are.",
+        "reference": "General PCU Troubleshooting"
+    },
+    {
+        "question": "An exhaust system incorporates a UV-C light technology for grease reduction. Which of the following best describes the primary mechanism by which UV-C contributes to this reduction?",
+        "options": ["A. It physically burns off accumulated grease deposits within the duct.", "B. It creates ozone, which then chemically neutralizes grease particles.", "C. It uses short-wavelength radiation to oxidize grease vapors, making them less adhesive.", "D. It causes grease particles to clump together, facilitating their capture by baffle filters."],
+        "correctAnswer": "C. It uses short-wavelength radiation to oxidize grease vapors, making them less adhesive.",
+        "explanation": "UV-C radiation breaks down the molecular bonds in grease vapors (photolysis) and also creates ozone which further oxidizes them (ozonolysis), turning them into a less sticky, powder-like substance.",
+        "reference": "CECS Study Guide, Page 5, 3.4 (Implied)"
+    },
+    {
+        "question": "How often must the total operation of a recirculating system be inspected and tested by qualified service personnel?",
+        "options": ["A. Quarterly.", "B. Every 6 months.", "C. Annually.", "D. Bi-annually."],
+        "correctAnswer": "B. Every 6 months.",
+        "explanation": "While internal components are cleaned more frequently, the entire operational test of a recirculating system is required on a semi-annual basis.",
+        "reference": "CECS Study Guide, Page 1, 1.3.1"
+    },
+    {
+        "question": "A critical safety component in a recirculating system is a listed fire damper. Where is this damper typically required to be installed to prevent fire spread?",
+        "options": ["A. At the entrance to the exhaust hood.", "B. Within the return air plenum directly before the supply fan.", "C. On the discharge side of the recirculating system before re-entry into the conditioned space.", "D. Immediately upstream of the grease removal devices."],
+        "correctAnswer": "C. On the discharge side of the recirculating system before re-entry into the conditioned space.",
+        "explanation": "To prevent a fire within the unit from spreading into the occupied space, a fire damper is required at the final discharge point.",
+        "reference": "NFPA 96, 14.6.4"
+    }
 ];
 
 
